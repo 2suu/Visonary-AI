@@ -1,0 +1,14 @@
+# 기본 패키지들 (버전 유연하게)
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+google-generativeai>=0.3.0
+firebase-admin>=6.0.0
+python-dotenv>=1.0.0
+tenacity>=8.0.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+pydantic-settings>=2.2
+
+# Celery 관련 (호환되는 버전)
+redis>=4.5.0,<5.0.0
+celery>=5.3.0
